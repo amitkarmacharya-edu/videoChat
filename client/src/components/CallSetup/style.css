@@ -1,0 +1,24 @@
+
+.video-playground {
+    height: 90%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.controls {
+    height: 50px;
+    min-width: 100%;
+}
+
+.self-potrait {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.self-potrait-sm {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+

@@ -1,0 +1,49 @@
+.meeting-room {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 2.5%;
+    height: 95vh;
+    width: 95%;
+    z-index: 999;
+    border-radius: .45rem;
+}
+
+.leave-meeting {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 5%;
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    line-height: 50%;
+    z-index: 9999;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: transform .5s, font-weight .5s;
+}
+
+.leave-meeting:hover {
+    color: white;
+    background-color: red;
+    transform: scale(1.2);
+    font-weight: bolder;
+    border-color: white;
+}
+
+.video-box{
+    padding: 1rem;
+    min-height: 50%;
+    min-width: 50%;
+    width: 100%;
+}
+
+.video {
+    height: 100%;
+    width: 100%;
+    border: 2px solid rgb(41, 41, 41);
+    border-radius: .45rem;
+    /* object-fit: cover; */
+    object-fit:contain;
+}
